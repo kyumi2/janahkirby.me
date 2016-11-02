@@ -49,7 +49,7 @@
     height: 100%;
     margin: 0;
     padding: 0;
-      background: url("Images/wave.png");
+      background: url("Images/wave.png") no-repeat;
       -webkit-background-size: 100%;
       -moz-background-size: 100%;
       -o-background-size: 100%;

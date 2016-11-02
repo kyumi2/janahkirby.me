@@ -1,0 +1,92 @@
+#nav a{
+  text-decoration: none;
+  text-transform: uppercase;
+  width: 50px;
+  color: #007058;
+}
+
+#nav{
+  margin-top: 50px;
+}
+
+#nav li:hover {
+  color: #black;
+  background: #00da98;
+  text-decoration: none;
+}
+#nav a:hover {
+  color: #black;
+  text-decoration: none;
+}
+
+#nav ul{
+  list-style-type: none;
+
+}
+
+#nav li{
+  text-decoration: none;
+  display: inline;
+  border: 3px solid #da0061;
+  padding: 6px;
+  margin: none;
+  background: black;
+}
+
+#com{
+  width: 200px;
+  height: 200px;
+
+  position: absolute;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+  body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+      background: url("Images/wave.png");
+      -webkit-background-size: 100%;
+      -moz-background-size: 100%;
+      -o-background-size: 100%;
+      background-size: 100%;
+
+  }
+
+
+
+  #text {
+      margin:  auto;
+      width: 22%;
+      text-align: center;
+      font-family: Arial;
+      letter-spacing: 13px;
+      color: #FFFFFF;
+      font-size: 12px;
+      margin-top: 300px;
+  }
+
+  #com  {
+        width: 100%;
+        height: 600px;
+        position:absolute;
+        top:50%;
+        left:50%;
+        margin-left:-560px;/* half width*/
+        margin-top:-90px;/
+
+  }
+  #com p{
+    font-size: 90px;
+    letter-spacing: 20px;
+    color: #007058;
+    font-weight: bold;
+  }
+
+  #com p:hover {
+      color: #da0061;
+  }

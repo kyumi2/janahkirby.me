@@ -1,0 +1,155 @@
+@charset "utf-8";
+
+/*Images are from a free stock photo website: https://stocksnap.io/
+
+*/
+body{
+	background: #ffffff;
+	overflow:hidden;
+}
+body, html {
+	height: 100%;
+}
+/*Home page nav*/
+.nav{
+	background:#ffffff;
+	width: 25%;
+	display: inline-table;
+	padding: 0px;
+	float: left;
+	height: 100%;
+	opacity: 0.7;
+}
+
+.nav:hover{
+	opacity: 1;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+
+}
+
+#nav ul{
+	text-align:center;
+	padding: 0px;
+	list-style-type: none;
+
+}
+
+#nav ul li{
+	display: block;
+	text-decoration:none;
+	text-align:center;
+
+}
+
+/*custom home page navs*/
+
+
+#home{
+	background:url(Images/cloudsvid.jpg);
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	min-height: 100%;
+	display: flex;
+	justify-content: center; /* align horizontal */
+	align-items: center; /* align vertical */
+	text-align:center;
+}
+	
+
+
+#home span{
+	color: white;
+	font-size:12px;
+}
+
+
+#portfolio {
+	background: url("Images/computerandcup.jpg");
+	background-position: center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	min-height: 100%;	
+	display: flex;
+	justify-content: center; /* align horizontal */
+	align-items: center; /* align vertical */
+}
+
+
+
+#resume {
+	background:  url("Images/calc.jpg");
+	background-position: center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	min-height: 100%;
+	display: flex;
+	justify-content: center; /* align horizontal */
+	align-items: center; /* align vertical */
+
+}
+
+#about{
+	background: url("Images/town.jpg");
+	background-position: center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	min-height: 100%;
+	display: flex;
+	justify-content: center; /* align horizontal */
+	align-items: center; /* align vertical */
+}
+
+
+
+
+
+/*Link for pages*/
+.link {
+
+}
+
+.link a{
+	color:#007058;
+	font-size: 48px;
+	text-decoration: none;
+	letter-spacing: 7px;
+
+
+}
+
+.link a:hover{
+	color:#da0061;
+	font-size: 48px;
+	border-bottom: 3px #da0061 dotted;
+	letter-spacing: 7px;
+
+}
+
+/*
+#nav a{
+	color: black;
+	text-decoration:none;
+	margin-top:auto;
+	margin-bottom:auto;
+
+Navigation link hover
+#nav a:hover{
+	color: #00ffff;
+}
+*/
+#footer{
+
+}
+#footer ul {
+	 list-style-type: none;
+}

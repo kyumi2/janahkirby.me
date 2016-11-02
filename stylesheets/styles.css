@@ -47,7 +47,7 @@ body, html {
 
 
 #home{
-	background-image:url("kyumi2.github.io/Images/cloudsvid.jpg");
+	background-image:url("/Images/cloudsvid.jpg");
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -68,7 +68,7 @@ body, html {
 
 
 #portfolio {
-	background-image: url("kyumi2.github.io/Images/computerandcup.jpg");
+	background-image: url("/Images/computerandcup.jpg");
 	background-position: center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -83,7 +83,7 @@ body, html {
 
 
 #resume {
-	background-image:url("kyumi2.github.io/Images/calc.jpg");
+	background-image:url("/Images/calc.jpg");
 	background-position: center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -97,7 +97,7 @@ body, html {
 }
 
 #about{
-	background-image:url("kyumi2.github.io/Images/town.jpg");
+	background-image:url("/Images/town.jpg");
 	background-position: center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;

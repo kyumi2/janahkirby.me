@@ -1,0 +1,81 @@
+.header-img {
+width:100%;
+}
+
+.jan {
+  font-size: 14px;
+  color: purple;
+  font-style: italic;
+  text-align: center;
+}
+
+.nav-pills {
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  justify-content: center;
+}
+
+#container {
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  color: purple;
+}
+
+.skills {
+  display: block;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.col-md-2{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hobbies {
+  text-align: center;
+  display: block;
+  margin-right: auto;
+}
+
+.education {
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+}
+
+.education ul li {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.college-title {
+  font-weight: bold;
+
+}
+
+.college-degree {
+  font-style: italic;
+}
+
+.college-desc{
+
+}
+
+.work-exp {
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.work-exp ul li {
+  text-decoration: none;
+  list-style-type: none;
+}

@@ -29,6 +29,10 @@
   margin-left: auto;
 }
 
+.profile-pic {
+  margin-bottom: -100px;
+}
+
 .footer {
   margin-left: auto;
   margin-right: auto;

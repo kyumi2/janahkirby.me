@@ -16,6 +16,10 @@
   justify-content: center;
 }
 
+.profile-pic{
+  width: 300px;
+  height: 400px;
+}
 
 .desc1 {
   text-align: center;
